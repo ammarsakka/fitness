@@ -1,10 +1,15 @@
 {
   "name": "simemotor-advisor",
   "version": "0.0.0",
+  "engines": {
+    "node": ">20.0.0"
+  },
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
+    "start:prod": "ng serve -c production",
+    "build:prod": "ng build -c production",
+    "start:stag": "ng serve -c development",
+    "build:stag": "ng build -c development --output-hashing=all",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
