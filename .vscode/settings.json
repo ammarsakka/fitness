@@ -1,0 +1,22 @@
+{
+  "files.eol": "\n",
+  "typescript.preferences.importModuleSpecifier": "shortest",
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.formatOnSaveMode": "file",
+  "[scss]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.trimAutoWhitespace": true,
+  "git.checkoutType": ["local", "remote"],
+  "css.customData": ["./.vscode/scss-data.json"]
+}
