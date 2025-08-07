@@ -1,3 +1,11 @@
-import { Routes } from '@angular/router';
+import { NgModule } from '@angular/core';
+import { RouterModule, Routes } from '@angular/router';
+import { LOGIN_ROUTES } from '../../features/auth/login/login-routing.module';
 
-export const AUTH_ROUTES: Routes = [];
+const routes: Routes = [...LOGIN_ROUTES];
+
+@NgModule({
+    imports: [RouterModule.forChild(routes)],
+    exports: [RouterModule],
+})
+export class AuthLayoutRoutingModule {}
